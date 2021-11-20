@@ -1,0 +1,246 @@
+
+.navbarParent{
+    position: relative;
+}
+
+.navbarParent .navbarParentInner{
+    display: flex;
+    justify-content: center;
+  
+
+ 
+
+}
+
+ul li a:hover{
+    border-bottom: 1px solid rgb(25, 209, 102);
+    color: rgb(24, 22, 22) !important;
+
+}
+
+
+.bannerSection{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: rgb(239,239,239);
+}
+
+.sectionleft
+{
+    /* position: absolute; */
+    /* right: 100px; */
+    margin-right: 200px;
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+
+.cardService{
+    position: relative;
+}
+
+.dropDownsection{
+    position: absolute;
+    top: 300px;
+    left:80px;
+    display: flex;
+    justify-content: space-between;   
+   
+}
+
+.dropDownsection a:hover{
+    border-bottom: 1px solid rgb(25, 209, 102);
+    color: rgb(24, 22, 22) !important;}
+
+.dropDownsection a{
+    color: rgba(0,0,0,.5) !important;
+}
+
+.technology{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.technology div{
+    margin-left: 20px;
+}
+
+
+/* Overylay */
+.overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in;
+    background-color:white;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.seacrhParent{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+
+}
+.navbarSpan{
+
+    display: flex;
+    position: absolute;
+    justify-content:flex-end;
+    border-bottom: 1px solid rgb(25, 209, 102);
+    /* top: 20px; */
+    right: 10px;
+    top: 14px;
+  
+}
+
+.navbarSpan div{
+    padding: 10px 10px;
+
+}
+.navbar img{
+    width: 60px;
+    height: 50px;
+}
+
+
+img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+
+}
+
+.card{  
+    /* background: rgb(136, 136, 136);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px ); */
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.lead{
+/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12px );
+-webkit-backdrop-filter: blur( 12px ); */
+border-radius: 10px;
+padding: 0px 10px;
+
+}
+
+.btn{
+    background: rgba( 65, 117, 5, 1 ) !important;
+    border: none !important;
+    color: white;
+
+}
+   
+
+.askQuestions{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 40px !important;
+    margin-top: 10px !important;
+
+}
+
+.parentFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+}
+
+.parentFooterGrand{
+    background-color: rgb(20, 20, 20) !important; 
+    color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    margin-top: 30px;
+
+}
+.parentFooter ul li {
+    list-style: none;
+}
+
+span{
+    padding: 20px 10px;
+}
+
+
+
+/* Transition */
+
+.cardParent{
+    transition: 1s ease-in-out;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+    
+}
+
+
+/* Contact */
+
+.contactSection{
+    color: rgb(10, 10, 10);
+    height: 300px;
+    width: 100%;
+ 
+ 
+}
+.formInner{
+    margin-top: 50px;  
+}
+
+.contactussection{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.contactussection .displaydiv {
+    padding-left: 200px;
+    margin-top: 100px;
+  
+}
+
+.card{
+    border: none !important;
+    font-size: 10px !important;
+}
+
+
+
+
